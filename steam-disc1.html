@@ -119,7 +119,7 @@
 				{ 'static': true, 'queue_ctn': $J('#discovery_queue_ctn').hide() }  );
 
 		$J('#refresh_queue_btn').click( function() { DiscoveryQueue.GenerateNewQueue(); } );
-		$J('.customize_discovery_queue_action').click( function() { DiscoveryQueue.ShowCustomizeDialog(); } );
+	//	$J('.customize_discovery_queue_action').click( function() { DiscoveryQueue.ShowCustomizeDialog(); } );
 	});
 
 </script>
@@ -610,9 +610,11 @@
 	<div class="page_content">
 
 		<div class="discovery_queue_customize_ctn">
-			<div class="btnv6_blue_hoverfade btn_medium customize_discovery_queue_action">
+			<a href="./steam-disc2.html">
+			<div class="btnv6_blue_hoverfade btn_medium">
 				<span>Customize your queue</span>
 			</div>
+			</a>
 			<span>
 				Pick the types of products you wish to see fewer of in your queue.			</span>
 		</div>
