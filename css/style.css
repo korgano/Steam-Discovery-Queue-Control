@@ -165,7 +165,7 @@ h2.card-header-acc {
 
 /*Begin Phone Media Queries*/
 
-@media only screen and (orientation: portrait) {
+@media not screen and (orientation: landscape) {
     
     h2.card-header {
         font-size: 48px !important;
