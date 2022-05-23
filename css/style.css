@@ -1,7 +1,7 @@
 /* Begin Base Style Overrides */
 
 .card {
-    background: #464D58;
+    background: #464D58A6;
     border: 1px solid #223C4F;
     margin-bottom: 1em;
     background-blend-mode: darken;
@@ -73,7 +73,7 @@ h2.card-header {
 }
 
 .card-acc {
-    background: #464D58;
+    background: #464D58A6;
     border: 1px solid #223C4F;
     margin-bottom: 1em;
 }
