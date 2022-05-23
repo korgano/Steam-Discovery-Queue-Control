@@ -162,3 +162,23 @@ h2.card-header-acc {
   }
 
 /*End Accordion Content settings*/
+
+/*Begin Phone Media Queries*/
+
+@media only screen and (orientation: portrait) {
+    
+    h2.card-header {
+        font-size: 48px !important;
+    }
+    
+    h2.card-header-acc {
+        font-size: 30px !important;
+    }
+    
+    .card-body {
+        font-size: 20px !important;
+    }
+
+  }
+
+/*End Phone Media Queries*/
