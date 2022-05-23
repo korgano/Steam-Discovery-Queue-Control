@@ -179,6 +179,14 @@ h2.card-header-acc {
         font-size: 26px !important;
     }
 
+    .accordion-button {
+        font-size: 26px !important;
+    }
+
+    .btn {
+        font-size: 2rem !important;
+    }
+
   }
 
 /*End Phone Media Queries*/
