@@ -102,6 +102,12 @@ h2.card-header-acc {
     background-blend-mode: darken;
 }
 
+.btn-group>.btn-check:checked+.btn-steam {
+    text-decoration: underline;
+    color: #fff !important;
+    background: #5c7e10 !important;
+}
+
 .btn-steam {
     border-radius: 2px;
     border: none;
