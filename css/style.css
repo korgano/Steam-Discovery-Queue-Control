@@ -1,0 +1,221 @@
+/* Begin Base Style Overrides */
+
+.card {
+    background: #464D58A6;
+    border: 1px solid #223C4F;
+    margin-bottom: 1em;
+    background-blend-mode: darken;
+}
+
+h2.card-header {
+    color: #ffffff;
+    font-size: 34px !important;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300 !important;
+    text-shadow: 1px 1px 0 rgba( 0, 0, 0, 0.4 );
+    background: linear-gradient(90deg, rgba(62, 103, 150, 0.919) 11.38%, rgba(58, 120, 177, 0.8) 25.23%, rgb(15, 33, 110) 100%) !important;
+    box-shadow: 0 0 3px rgba( 0, 0, 0, 0.4) !important;
+}
+
+.card-body {
+    font-size: 16px !important;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300 !important;
+
+    /* Frame 90 */
+
+    box-sizing: border-box;
+
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: .5em;
+    gap: 10px;
+}
+
+.btn-primary, .btn-secondary {
+    border-radius: 2px;
+}
+
+.btn-primary {
+    color: #67c1f5 !important;
+    background: rgba( 103, 193, 245, 0.2 );
+}
+
+.btn-primary:hover {
+    color: #ffffff !important;
+    background: #417a9b;
+    background: -webkit-linear-gradient( 150deg, #417a9b 5%,#67c1f5 95%);
+    background: linear-gradient( -60deg, #417a9b 5%,#67c1f5 95%);
+}
+
+/* End Base Style Overrides */
+
+/*Begin Accordion Content settings*/
+
+.row-cols-auto {
+    align-content: center;
+}
+
+.accordion-body {
+    align-items: center;
+    background: #17212F;
+    border: 1px solid #000000;
+}
+
+.form-check-label {
+	margin-bottom: 1.15em;
+}
+
+.btn-group.me-2 {
+        margin-bottom: .5em;
+}
+
+.card-acc {
+    background: #464D58A6;
+    border: 1px solid #223C4F;
+    margin-bottom: 1em;
+}
+
+h2.card-header-acc {
+    color: #ffffff;
+    font-size: 20px !important;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300 !important;
+    text-shadow: 1px 1px 0 rgba( 0, 0, 0, 0.4 );
+    background: linear-gradient(90deg, rgba(62, 103, 150, 0.919) 11.38%, rgba(58, 120, 177, 0.8) 25.23%, rgb(15, 33, 110) 100%) !important;
+    box-shadow: 0 0 3px rgba( 0, 0, 0, 0.4) !important;
+    text-align: center;
+}
+
+.accordion-button {
+    color: #c6d4df !important;
+    background: #464D58;
+    border-radius: 0 !important;
+    /*border: 1px solid #223C4F;*/
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff !important;
+    background: #5192ee;
+    background-blend-mode: darken;
+}
+
+.btn-group>.btn-check:checked+.btn-steam {
+    text-decoration: underline;
+    color: #fff !important;
+    background: -webkit-linear-gradient( 30deg, rgba(117, 176, 34, 0.7) 5%,rgba(88, 138, 27, 0.6) 95%);
+	background: linear-gradient( 60deg, rgba(117, 176, 34, 0.7) 5%,rgba(88, 138, 27, 0.6) 95%);
+}
+
+.btn-steam {
+    border-radius: 2px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #67c1f5 !important;
+    background: rgba( 103, 193, 245, 0.2 );
+    padding-top: 0.375rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.375rem;
+    padding-left: 0.75rem;
+  }
+
+  .btn-steam:hover {
+    text-decoration: none !important;
+    color: #fff !important;
+    background: #417a9b;
+    background: -webkit-linear-gradient( 150deg, #417a9b 5%,#67c1f5 95%);
+    background: linear-gradient( -60deg, #417a9b 5%,#67c1f5 95%);
+  }
+
+  .btn-steam:focus {
+    text-decoration: underline;
+    color: #fff !important;
+    background: -webkit-linear-gradient( 30deg, rgba(117, 176, 34, 0.7) 5%,rgba(88, 138, 27, 0.6) 95%);
+	background: linear-gradient( 60deg, rgba(117, 176, 34, 0.7) 5%,rgba(88, 138, 27, 0.6) 95%);
+  }
+
+  .btn-steam:visited {
+    text-decoration: underline;
+    color: #fff !important;
+    background: -webkit-linear-gradient( 30deg, rgba(117, 176, 34, 0.7) 5%,rgba(88, 138, 27, 0.6) 95%);
+	background: linear-gradient( 60deg, rgba(117, 176, 34, 0.7) 5%,rgba(88, 138, 27, 0.6) 95%);
+  }
+
+  .save-buttons {
+      margin-top: 1em;
+  }
+
+  .card-text {
+      width: 100%;
+  }
+
+  b.num-rank {
+        color: #ffffff;
+  }
+
+  .input-group.mb-3 {
+      margin-top: 1em;
+  }
+
+  .form-control {
+    color: #ffffff !important;
+    background-color: #316282 !important;
+  }
+
+  .form-control#placeholder {
+      color: #ffffff;
+  }
+
+  .btn.btn-warning:hover {
+    color: #fff !important;
+    background: -moz-linear-gradient(-45deg,  rgba(190,150,25,0.6) 10%, rgba(224,177,29,0.8) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(10%,rgba(190,150,25,0.6)), color-stop(100%,rgba(224,177,29,0.8))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  rgba(190,150,25,0.6) 10%,rgba(224,177,29,0.8) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  rgba(190,150,25,0.6) 10%,rgba(224,177,29,0.8) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  rgba(190,150,25,0.6) 10%,rgba(224,177,29,0.8) 100%); /* IE10+ */
+    background: linear-gradient(135deg,  rgba(190,150,25,0.6) 10%,rgba(224,177,29,0.8) 100%); /* W3C */
+  }
+
+  .btn.btn-secondary:hover {
+    color: #000000;
+    background: -moz-linear-gradient(-45deg,  #ffffff 0%, #b1b7ca 60%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #ffffff 0%, #b1b7ca 60%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ffffff 0%, #b1b7ca 60%);
+  /*  background: -moz-linear-gradient(-45deg,  rgba(172,219,245,0.5) 0%, rgba(255,255,255,0.5) 100%); /* FF3.6-15 */
+    /* background: -webkit-linear-gradient(-45deg,  rgba(172,219,245,0.5) 0%,rgba(255,255,255,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+	/* background: linear-gradient(135deg,  rgba(172,219,245,0.5) 0%,rgba(255,255,255,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
+
+/*End Accordion Content settings*/
+
+/*Begin Phone Media Queries*/
+
+@media not screen and (orientation: landscape) {
+    
+    h2.card-header {
+        font-size: 48px !important;
+    }
+    
+    h2.card-header-acc {
+        font-size: 32px !important;
+    }
+    
+    .card-body {
+        font-size: 26px !important;
+    }
+
+    .accordion-button {
+        font-size: 26px !important;
+    }
+
+    .btn {
+        font-size: 2rem !important;
+    }
+
+  }
+
+/*End Phone Media Queries*/
